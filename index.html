@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin Thành viên & Bài 11</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            margin-bottom: 25px;
+        }
+        h2 {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            color: #334155;
+        }
+        /* Danh sách thành viên */
+        .member-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .member-item {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            background: #f1f5f9;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .member-name {
+            font-weight: 600;
+        }
+        .member-role {
+            font-size: 0.85rem;
+            color: #64748b;
+            background: #e2e8f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        /* Nội dung bài 11 */
+        .lesson-content {
+            white-space: pre-line; /* Giúp giữ nguyên định dạng xuống dòng của bạn */
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Trang Bài Tập Nhóm</h1>
+            <p>Báo cáo thông tin thành viên và nội dung Bài 11</p>
+        </header>
+
+        <!-- PHẦN 1: THÔNG TIN THÀNH VIÊN -->
+        <section class="card">
+            <h2>👥 Thông Tin Thành Viên</h2>
+            <ul class="member-list">
+                <!-- BẠN CÓ THỂ SỬA TÊN Ở CÁC DÒNG DƯỚI ĐÂY -->
+                <li class="member-item">
+                    <span class="member-name">1. Nguyễn Văn A</span>
+                    <span class="member-role">Nhóm trưởng</span>
+                </li>
+                <li class="member-item">
+                    <span class="member-name">2. Trần Thị B</span>
+                    <span class="member-role">Thành viên</span>
+                </li>
+                <li class="member-item">
+                    <span class="member-name">3. Lê Văn C</span>
+                    <span class="member-role">Thành viên</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- PHẦN 2: NỘI DUNG BÀI 11 -->
+        <section class="card">
+            <h2>📖 Nội Dung Bài 11</h2>
+            <div class="lesson-content">
+                <!-- BẠN CÓ THỂ SỬA HOẶC THÊM NỘI DUNG BÀI 11 Ở ĐÂY -->
+                <p><strong>Chủ đề:</strong> [Điền tên chủ đề bài 11 vào đây]</p>
+                <p><strong>I. Lý thuyết trọng tâm:</strong></p>
+                <p>- Viết nội dung lý thuyết của bài 11 tại đây...</p>
+                <p>- Bạn có thể tự do chỉnh sửa file này bất cứ lúc nào trên GitHub.</p>
+                
+                <p><strong>II. Bài tập / Thực hành:</strong></p>
+                <p>- Ghi chú kết quả hoặc mã nguồn/câu trả lời của bài 11...</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Được quản lý qua GitHub</p>
+        </footer>
+    </div>
+
+</body>
+</html>
